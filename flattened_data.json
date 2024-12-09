@@ -1,0 +1,429 @@
+[
+  {
+    "_id": "AT",
+    "name": "Automotives",
+    "level": "L0",
+    "value": 6,
+    "parent_id": null
+  },
+  {
+    "_id": "AT1",
+    "name": "ACM",
+    "level": "L1",
+    "value": 4,
+    "parent_id": "AT"
+  },
+  {
+    "_id": "AT11",
+    "name": "Powertrain",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "AT1"
+  },
+  {
+    "_id": "AT111",
+    "name": "Engine",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT11"
+  },
+  {
+    "_id": "AT112",
+    "name": "Transmission",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT11"
+  },
+  {
+    "_id": "AT12",
+    "name": "Drivetrain",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "AT1"
+  },
+  {
+    "_id": "AT121",
+    "name": "Steering, Wheel, Suspension",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT12"
+  },
+  {
+    "_id": "AT1211",
+    "name": "Gear",
+    "level": "L4",
+    "value": 1,
+    "parent_id": "AT121"
+  },
+  {
+    "_id": "AT122",
+    "name": "Chassis",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT12"
+  },
+  {
+    "_id": "AT13",
+    "name": "Equipments/others",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "AT1"
+  },
+  {
+    "_id": "AT131",
+    "name": "Tyres",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT13"
+  },
+  {
+    "_id": "AT1311",
+    "name": "Retread",
+    "level": "L4",
+    "value": 1,
+    "parent_id": "AT131"
+  },
+  {
+    "_id": "AT132",
+    "name": "Metal",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT13"
+  },
+  {
+    "_id": "AT133",
+    "name": "Display Clusters",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT13"
+  },
+  {
+    "_id": "AT134",
+    "name": "Rubber",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT13"
+  },
+  {
+    "_id": "AT135",
+    "name": "Electronics Parts",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT13"
+  },
+  {
+    "_id": "AT136",
+    "name": "Spare Parts",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT13"
+  },
+  {
+    "_id": "AT2",
+    "name": "OEM",
+    "level": "L1",
+    "value": 4,
+    "parent_id": "AT"
+  },
+  {
+    "_id": "AT21",
+    "name": "Private Vehicle",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "AT2"
+  },
+  {
+    "_id": "AT211",
+    "name": "2 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT21"
+  },
+  {
+    "_id": "AT212",
+    "name": "4 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT21"
+  },
+  {
+    "_id": "AT22",
+    "name": "Commercial Vehicle",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "AT2"
+  },
+  {
+    "_id": "AT221",
+    "name": "2 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT22"
+  },
+  {
+    "_id": "AT222",
+    "name": "3 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT22"
+  },
+  {
+    "_id": "AT223",
+    "name": "4/4+ Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT22"
+  },
+  {
+    "_id": "AT224",
+    "name": "LCV",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT22"
+  },
+  {
+    "_id": "AT225",
+    "name": "HCV",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT22"
+  },
+  {
+    "_id": "AT3",
+    "name": "Services",
+    "level": "L1",
+    "value": 4,
+    "parent_id": "AT"
+  },
+  {
+    "_id": "AT31",
+    "name": "Core Services",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "AT3"
+  },
+  {
+    "_id": "AT311",
+    "name": "Dealers - Authorised",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT31"
+  },
+  {
+    "_id": "AT312",
+    "name": "Dealers - Independent",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT31"
+  },
+  {
+    "_id": "AT313",
+    "name": "Refurbishments",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT31"
+  },
+  {
+    "_id": "AT314",
+    "name": "Used cars",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT31"
+  },
+  {
+    "_id": "AT32",
+    "name": "Ancillary Services",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "AT3"
+  },
+  {
+    "_id": "AT321",
+    "name": "Fleet Market/rental",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT32"
+  },
+  {
+    "_id": "AT322",
+    "name": "Ride hailing",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "AT32"
+  },
+  {
+    "_id": "EV",
+    "name": "Electric Vehicles",
+    "level": "L0",
+    "value": 6,
+    "parent_id": null
+  },
+  {
+    "_id": "EV1",
+    "name": "ACM",
+    "level": "L1",
+    "value": 4,
+    "parent_id": "EV"
+  },
+  {
+    "_id": "EV11",
+    "name": "Powertrain",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "EV1"
+  },
+  {
+    "_id": "EV111",
+    "name": "Battery/Engine",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV11"
+  },
+  {
+    "_id": "EV1111",
+    "name": "BMS",
+    "level": "L4",
+    "value": 1,
+    "parent_id": "EV111"
+  },
+  {
+    "_id": "EV112",
+    "name": "Motor",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV11"
+  },
+  {
+    "_id": "EV12",
+    "name": "Drivetrain",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "EV1"
+  },
+  {
+    "_id": "EV121",
+    "name": "Steering, Wheel, Suspension",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV12"
+  },
+  {
+    "_id": "EV13",
+    "name": "Equipments/others",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "EV1"
+  },
+  {
+    "_id": "EV131",
+    "name": "Tyres",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV13"
+  },
+  {
+    "_id": "EV132",
+    "name": "Metal",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV13"
+  },
+  {
+    "_id": "EV133",
+    "name": "Others(music systems etc)",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV13"
+  },
+  {
+    "_id": "EV134",
+    "name": "Cooling System",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV13"
+  },
+  {
+    "_id": "EV2",
+    "name": "OEM",
+    "level": "L1",
+    "value": 4,
+    "parent_id": "EV"
+  },
+  {
+    "_id": "EV21",
+    "name": "Private Vehicle",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "EV2"
+  },
+  {
+    "_id": "EV211",
+    "name": "2 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV21"
+  },
+  {
+    "_id": "EV212",
+    "name": "4 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV21"
+  },
+  {
+    "_id": "EV22",
+    "name": "Commercial Vehicle",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "EV2"
+  },
+  {
+    "_id": "EV221",
+    "name": "2 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV22"
+  },
+  {
+    "_id": "EV222",
+    "name": "3 Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV22"
+  },
+  {
+    "_id": "EV223",
+    "name": "4/4+ Wheeler",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV22"
+  },
+  {
+    "_id": "EV3",
+    "name": "Utilities",
+    "level": "L1",
+    "value": 4,
+    "parent_id": "EV"
+  },
+  {
+    "_id": "EV31",
+    "name": "Charging",
+    "level": "L2",
+    "value": 3,
+    "parent_id": "EV3"
+  },
+  {
+    "_id": "EV311",
+    "name": "Battery Swapping",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV31"
+  },
+  {
+    "_id": "EV312",
+    "name": "Plug in Charging",
+    "level": "L3",
+    "value": 2,
+    "parent_id": "EV31"
+  }
+]

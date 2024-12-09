@@ -5,7 +5,29 @@
     {
       "name" : "analytics",
       "value" : 2,
-      "children" : null
+      "children": [
+        {
+          "name": "Powertrain",
+          "value": 3,
+          "children": [
+            {
+              "name": "Engine",
+              "value": 2,
+			  "children": [
+                {
+                  "name": "Gear",
+                  "value": 1,
+				  "children": [
+                {
+                  "name": "Gear2",
+                  "value": 1,
+				  "children" : null
+                }
+              ]
+                }
+              ]
+            }]
+		}]
     },
     {
       "name" : "graph",
